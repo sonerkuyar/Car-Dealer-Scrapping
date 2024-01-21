@@ -1,0 +1,132 @@
+[1664881445.350][INFO]: Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 50235
+[1664881445.350][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1664881446.336][INFO]: [7eae6d8b8dd56005382d7dbc6f49e094] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         },
+         "platformName": "any"
+      },
+      "firstMatch": [ {
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[1664881446.337][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1664881446.337][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1664881446.338][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/39/5sy3s_tx02337pl262zyxlwm0000gn/T/.com.google.Chrome.6Mu1jj data:,
+[1664881447.330][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1664881447.413][INFO]: [7eae6d8b8dd56005382d7dbc6f49e094] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "106.0.5249.91",
+      "chrome": {
+         "chromedriverVersion": "106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569})",
+         "userDataDir": "/var/folders/39/5sy3s_tx02337pl262zyxlwm0000gn/T/.com.google.Chrome.6Mu1jj"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:50244"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "7eae6d8b8dd56005382d7dbc6f49e094"
+}
+[1664881450.860][INFO]: [7eae6d8b8dd56005382d7dbc6f49e094] COMMAND Navigate {
+   "url": "https://www.sahibinden.com"
+}
+[1664881450.860][INFO]: Waiting for pending navigations...
+[1664881450.866][INFO]: Done waiting for pending navigations. Status: ok
+[1664881451.139][INFO]: Waiting for pending navigations...
+[1664881460.681][INFO]: Done waiting for pending navigations. Status: ok
+[1664881460.696][INFO]: [7eae6d8b8dd56005382d7dbc6f49e094] RESPONSE Navigate
+[1664881661.055][INFO]: [7eae6d8b8dd56005382d7dbc6f49e094] COMMAND QuitAll {
+}
+[1664881661.056][INFO]: [7eae6d8b8dd56005382d7dbc6f49e094] RESPONSE QuitAll
